@@ -24,7 +24,10 @@
 
         <header class="jumbotron jumbotron-fluid">
             <div class="container">
-                <div class="row">
+                    <div class="row">
+                        <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                           <a href="index.html"> <img src="img/logo.png" class="img-fluid" /></a>
+                         </div>  
                     <div class="col">
                         <h1>NuCamp</h1>
                         <h2>a better way to camp</h2>
@@ -35,7 +38,8 @@
 
         <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
             <div class="container">
-                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+                <a class="navbar-brand" href="index.html"><img src="img/logo.png" height="30" width="30" /></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="nucampNavbar">
@@ -122,7 +126,7 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
+                            <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label> <!--the label for and id match...makes the input field active when click on text-->
                             <div class="col-5 col-md-3">
                                 <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area code"/>
                             </div>
@@ -139,7 +143,7 @@
                         </div>
 
                         <div class="form-group row">
-                            <div class="col offse-md-2">
+                            <div class="col offset-md-2">
                                 May we contact you?
                                 <div class="form-check form-check-inline">
                                     <input type="radio" class="form-check-input" id="contactYes" name="contactRadios" value="yes"/>
@@ -170,7 +174,7 @@
 
         </div>
 
-        <footer>
+        <footer class="site-footer">
             <div class="container">
                 <div class="row">
                     <div class="col-4 col-sm-2 offset-1">

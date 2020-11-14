@@ -27,6 +27,9 @@
             <!--the fluid will get rid of round corners-->
             <div class="container">
                 <div class="row">
+                    <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                        <img src="img/logo.png" class="img-fluid" />
+                     </div>     
                     <div class="col">
                         <h1>NuCamp</h1>
                         <h2>a better way to camp</h2>
@@ -35,13 +38,12 @@
             </div>
         </header>
 
-        <nav
-            class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
             <!--navbar-dark will change the text to a lighter color for contrast with dark background-->
-            <div
-                class="container">
+            <div class="container">
                 <!--added container class to change padding of text menu-->
-                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+                <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" width="30" /></a>
+                <button class="navbar-toggler type="button" data-toggle="collapse" data-target="#nucampNavbar">
                     <span class="navbar-toggler-icon"></span> <!--reminder that span is an inline element and div is a block element. The span won't start a new section-->
                 </button>
                 <!--notice placement of end tag-->
@@ -71,9 +73,14 @@
                     <h2 class="text-sm-right">Discover & Review</h2>
                 </div>
                 <div class="col">
+                    <div class="media">
+                        <img class="d-flex mr-3 img-thumbnail" src="img/breadcrumb-trail-thumb.jpg" alt="Breadcrumb Trail" />
+                        <div class="media-body align-self-center">
                     <h3>Our Campsites</h3>
                     <p class="d-none d-sm-block">Explore our growing database of curated campsites and leave your own reviews!</p>
-                </div>
+                       </div>
+                   </div>
+                 </div>
             </div>
 
             <div class="row row-content">
@@ -92,13 +99,18 @@
                     <h2 class="text-sm-right">Our Community Partners</h2>
                 </div>
                 <div class="col">
-                    <h3>Bootstrap Outfitters</h3>
+                    <div class="media">
+                        <img class="d-flex mr-3 img-thumbnail" src="img/bootstrap-thumb.png" alt="Bootstrap Outfitters" />
+                        <div class="media-body align-self-center">
+                        <h3>Bootstrap Outfitters</h3>
                     <p class="d-none d-sm-block">Bootstrap Outfitters supplies you with gear you need at prices you can't beat.</p>
                 </div>
             </div>
         </div>
+    </div>
+</div>
 
-        <footer>
+        <footer class="site-footer">
             <div class="container">
                 <div class="row row-content">
                     <div class="col-4 col-sm-2 offset-1">
