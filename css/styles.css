@@ -43,3 +43,10 @@ header h2 {
 .carousel {
     border: solid #
 }
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100; /* to ensure the buttons are over the top of the image instead of being hidden underneath it */
+}
