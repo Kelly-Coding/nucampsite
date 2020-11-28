@@ -40,3 +40,11 @@ header h2 {
   bottom: 0;
   z-index: 100;
   /* to ensure the buttons are over the top of the image instead of being hidden underneath it */ }
+
+#reserveModal .modal-header {
+  background-color: #17A2B8;
+  color: white; }
+
+#loginModal .modal-header {
+  background-color: #901CAD;
+  color: white; }
